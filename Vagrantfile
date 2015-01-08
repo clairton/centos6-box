@@ -7,6 +7,8 @@ Vagrant.configure(2) do |config|
 
   config.vm.provision "shell", path: "shell/maven.sh"
 
+  config.vm.provision "shell", path: "shell/node.sh"
+
   config.vm.network "forwarded_port", guest: 8080, host: 8080
   config.vm.network "forwarded_port", guest: 4200, host: 4200
   
