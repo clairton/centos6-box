@@ -1,6 +1,6 @@
 Vagrant.configure(2) do |config|
   config.vm.box = "vStone/centos-6.x-puppet.3.x"
-  
+
   config.vm.provision :shell, inline: "yum install -y wget"
 
   config.vm.provision :shell, path: "shell/java.sh"
@@ -8,7 +8,7 @@ Vagrant.configure(2) do |config|
   config.vm.provision :shell, path: "shell/maven.sh"
 
   config.vm.provision :shell, path: "shell/node.sh"
-
+  
   config.vm.provision :shell, inline: "yum install -y git"
 
   config.vm.network :forwarded_port, guest: 8080, host: 8080
