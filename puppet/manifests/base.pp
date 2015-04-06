@@ -1,3 +1,3 @@
-node "centos-7.x-amd64"{
+node "centos-6.x-amd64"{
 	
 }
