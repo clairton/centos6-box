@@ -1,2 +1,2 @@
-# centos6-box
-Centos 6 with jdk, maven, and node
+# script
+Automated scripts to install maven, java, etc
