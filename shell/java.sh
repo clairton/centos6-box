@@ -2,7 +2,7 @@ if [ ! -f jdk.tar.gz ]; then
   wget --no-cookies \
   --no-check-certificate \
   --header "Cookie: oraclelicense=accept-securebackup-cookie" \
-  "http://download.oracle.com/otn-pub/java/jdk/8u25-b17/jdk-8u25-linux-x64.tar.gz" \
+  "http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.tar.gz" \
   -O jdk.tar.gz
 fi
 mkdir -p /opt/jdk
