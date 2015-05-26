@@ -8,9 +8,9 @@ ln -s /opt/maven/bin/mvn /usr/bin/mvn
 touch /etc/profile.d/maven.sh
 cat > /etc/profile.d/maven.sh << EOL
 #!/bin/bash
-MAVEN_HOME=/opt/maven
-PATH=\$MAVEN_HOME/bin:\$PATH
-export PATH MAVEN_HOME
+M2_HOME=/opt/maven
+PATH=\$M2_HOME/bin:\$PATH
+export PATH M2_HOME
 export CLASSPATH=.
 EOL
 chmod +x /etc/profile.d/maven.sh
