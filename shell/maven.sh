@@ -1,5 +1,5 @@
 if [ ! -f apache-maven.tar.gz ]; then
-  wget http://mirror.nbtelecom.com.br/apache/maven/maven-3/3.3.1/binaries/apache-maven-3.3.1-bin.tar.gz \
+  wget http://mirror.nbtelecom.com.br/apache/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.tar.gz \
   -O apache-maven.tar.gz
 fi
 mkdir -p /opt/maven
